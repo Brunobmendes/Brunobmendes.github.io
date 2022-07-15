@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Philosopher&display=swap" rel="stylesheet">
 
 </head>
 <body>
-
+    <div id="master-box">
     <h1 id = "nome-e-foto">Bruno Bueno Mendes</h1> 
-    <img src="images/my-photo.jpeg" 
+    <!--<img class = "bruno-photo" src="images/my-photo.jpeg" 
     alt="pessoa do sexo masculino com cabelo liso loiro platinado, sentado no banco de uma praça" 
     width="100 px"
-    />
+    /-->
     
+    <div id = "indice">
     <h2>Índice</h2>
+    <ul class="indice-list">
+    <li><a class= "indice-links" href= #nome-e-foto>Nome</a></li>
+    <br>
+    <li><a class= "indice-links" href=#quem-sou-eu>Quem sou eu?</a></li>
+    <br>
+    <li><a class= "indice-links" href=#minhas-habilidades>Minhas habilidades</a></li>
+    <br>
+    <li><a class= "indice-links" href=#recomendacoes>Recomendações</a></li>
+    <br>
+    <li><a class= "indice-links" href=#minhas-redes>redes sociais</a></li>
+    </ul>
+    </div>
+    <br>
 
-    <a href=#nome-e-foto>Nome</a>
-    <br>
-    <a href=#quem-sou-eu>Quem sou eu?</a>
-    <br>
-    <a href=#minhas-habilidades>Minhas habilidades</a>
-    <br>
-    <a href=#recomendacoes>Recomendações</a>
-    <br>
-    <a href=#minhas-redes>redes sociais</a>
-    <br>
     <h2 id="quem-sou-eu">Quem sou eu?</h2>
     <p>Me chamo Bruno Bueno Mendes, nasci em 2004 e atualmente resido em Araucária/PR</p>
 
@@ -45,7 +52,10 @@
     </p>
 
     <h2 id="minhas-redes">Minhas redes</h2>
-    <a href="https://www.linkedin.com/in/bruno-bueno-mendes-4b3177239/" target="_blank"><img src="icons/linkedin-icon.png" alt="icone do linkedin"></a> 
-    <a href="https://github.com/Brunobmendes" target="_blank"><img src="icons/GitHub-dark-icon.png" alt="icone do GitHub" width="50px"></a>
+    <a href="https://www.linkedin.com/in/bruno-bueno-mendes-4b3177239/" target="_blank"><img id= linkedin-icon src="icons/linkedin-icon-no-border.png" alt="icone do linkedin"></a> 
+    <a href="https://github.com/Brunobmendes" target="_blank"><img id= github-icon src="icons/GitHub-light-icon.png" alt="icone do GitHub" width="50px"></a>
+    
+
+    </div>
 </body>
 </html>
