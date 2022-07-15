@@ -1,37 +1,57 @@
-body {
+body{
+    background-color: #282a36;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-color: #44475a;
+    border-top: 3em;
+    
+}
+#nome{
+    /*padding-top: 1.5em;
+    padding-right: 100%;
+    padding-left: 100%; */
+    
+    background-color: #44475a;
+    color: #ff5555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#master-box{
     background-color: #282a36;
     color: whitesmoke;
     font-size: 20px;
     font-family: 'Philosopher', sans-serif;
-}
-#master-box{
     
 
 }
 h2 {
-    color: #ff79c6
+    color: #ff79c6;
 }
 
-#nome-e-foto{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #44475a;
-    margin-left: 40%;
-    margin-right: 2em;
-    position: fixed;
-    transform: 100%;
-}
+
 
 .indice-links { 
     color: #50fa7b;
     text-decoration: none;
 }
 .indice-links:hover{ 
-    color: #50fa7b;
+    color: #1e642f;
     text-decoration: underline;
 }
 .indice-list{
     list-style-type: circle;
 }
+#diolinux-link{
+    color: #50fa7b;
+    text-decoration: none;
+}
+#diolinux-link:hover{
+    color: #1e642f;
+    text-decoration: underline;
+}
 
-
-#linkedin-icon{background-color: whitesmoke; border-radius: 80%;}
+#linkedin-icon{
+    background-color: whitesmoke; border-radius: 80%;
+}
