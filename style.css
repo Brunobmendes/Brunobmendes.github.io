@@ -12,10 +12,11 @@ body{
     padding-right: 100%;
     padding-left: 100%; */
     
-    background-color: #44475a;
-    color: #ff5555;
-    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    border-radius: 5%;
 }
 
 #master-box{
